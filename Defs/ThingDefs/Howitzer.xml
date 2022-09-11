@@ -11,14 +11,13 @@
     <uiIconScale>0.90</uiIconScale>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <graphicData>
-      <texPath>Things/Howitzer/howitzerBase</texPath>
+      <texPath>Things/Howitzer/howitzer_base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
-      <WorkToMake>33500</WorkToMake>
+      <WorkToBuild>33500</WorkToBuild>
       <Mass>1520</Mass>
       <Bulk>1000</Bulk>
     </statBases>
@@ -26,6 +25,15 @@
       <Steel>400</Steel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
+    <costListForDifficulty>
+      <difficultyVar>classicMortars</difficultyVar>
+      <invert>true</invert>
+      <costList>
+        <ComponentIndustrial>8</ComponentIndustrial>
+        <ReinforcedBarrel>1</ReinforcedBarrel>
+        <Steel>250</Steel>
+      </costList>
+    </costListForDifficulty>
     <tradeTags>
       <li>CE_Turret</li>
     </tradeTags>
@@ -44,6 +52,7 @@
     <size>(3,3)</size>
     <fillPercent>0.85</fillPercent>
     <stuffCategories Inherit="False"/>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <researchPrerequisites>
       <li>CE_TurretHeavyWeapons</li>
       <li>Mortars</li>
@@ -58,7 +67,7 @@
     <defName>CE_Gun_Howitzer</defName>
     <label>105mm howitzer</label>
     <graphicData>
-      <texPath>Things/Howitzer/howitzerGun_indirect</texPath>
+      <texPath>Things/Howitzer/howitzer_gun_indirect</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <description>105mm artillery gun.</description>
@@ -67,6 +76,7 @@
       <MarketValue>3500</MarketValue>
       <SightsEfficiency>0.5</SightsEfficiency>
       <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+      <Mass>1000</Mass>
     </statBases>
     <weaponTags>
       <li>TurretGun</li>
