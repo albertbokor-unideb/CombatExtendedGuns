@@ -296,6 +296,7 @@
     <defName>CE_Gun_SWGovernor</defName>
     <label>S&amp;W Governor</label>
     <description>Ancient revolver designed for self-defense. Fires a powerful pistol cartridge as well as small shotgun shells.</description>
+    <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Weapons/SWGovernor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -387,6 +388,7 @@
     <defName>CE_Gun_WinchesterNintyFour</defName>
     <label>Winchester 94</label>
     <description>Ancient lever-action repeating rifle that became one of the most famous and popular hunting rifles of all time.</description>
+    <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Weapons/Winchester94</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -695,6 +697,7 @@
     <defName>CE_Gun_SKS</defName>
     <label>SKS</label>
     <description>Ancient battle rifle. Fires an intermediate rifle cartridge and is a popular choice for long-range engagements.</description>
+    <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Weapons/SKS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
