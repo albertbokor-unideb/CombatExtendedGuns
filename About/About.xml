@@ -10,12 +10,12 @@
 	</supportedVersions>
 	<packageId>CETeam.CombatExtendedGuns</packageId>	
 	<modDependencies>	
-	<li>
-        <packageId>CETeam.CombatExtended</packageId>
-        <displayName>Combat Extended</displayName>
-        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1631756268</steamWorkshopUrl>
-        <downloadUrl>https://github.com/CombatExtended-Continued/CombatExtended/releases/</downloadUrl>
-    </li>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1631756268</steamWorkshopUrl>
+			<downloadUrl>https://github.com/CombatExtended-Continued/CombatExtended/releases/</downloadUrl>
+		</li>
     </modDependencies>
     <loadAfter>
         <li>CETeam.CombatExtended</li>
