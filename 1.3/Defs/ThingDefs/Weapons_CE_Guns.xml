@@ -511,7 +511,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>2.34</recoilAmount>
+        <recoilAmount>2.04</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
@@ -1204,7 +1204,7 @@
     <label>Hecate II</label>
     <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range. Comes with a quick detachable stock for ease of transport.</description>
     <graphicData>
-      <texPath>Things/Weapons/HécateII</texPath>
+      <texPath>Things/Weapons/HecateII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
