@@ -290,14 +290,14 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- ==================== S&W Governor ==================== -->
+  <!-- ==================== Taurus Judge ==================== -->
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
-    <defName>CE_Gun_SWGovernor</defName>
-    <label>S&amp;W Governor</label>
+    <defName>CE_Gun_TaurusJudge</defName>
+    <label>Taurus Judge</label>
     <description>Ancient revolver designed for self-defense. Fires a powerful pistol cartridge as well as small shotgun shells.</description>
     <graphicData>
-      <texPath>Things/Weapons/SWGovernor</texPath>
+      <texPath>Things/Weapons/TaurusJudge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Revolver</soundInteract>
@@ -308,9 +308,9 @@
       <WorkToMake>4500</WorkToMake>
       <SightsEfficiency>0.7</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>1.01</SwayFactor>
-      <Bulk>2.20</Bulk>
-      <Mass>0.84</Mass>
+      <SwayFactor>0.91</SwayFactor>
+      <Bulk>1.90</Bulk>
+      <Mass>0.82</Mass>
       <RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -319,10 +319,10 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>3.11</recoilAmount>
+        <recoilAmount>3.17</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
+        <defaultProjectile>Bullet_45Colt_FMJ</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <range>12</range>
         <soundCast>Shot_Revolver</soundCast>
@@ -332,9 +332,9 @@
     </verbs>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>6</magazineSize>
+        <magazineSize>5</magazineSize>
         <reloadTime>4.6</reloadTime>
-        <ammoSet>AmmoSet_45ACP410Bore_SB</ammoSet>
+        <ammoSet>AmmoSet_45Colt410Bore_SB</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiAimMode>Snapshot</aiAimMode>
@@ -511,7 +511,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>2.34</recoilAmount>
+        <recoilAmount>2.04</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
@@ -1204,7 +1204,7 @@
     <label>Hecate II</label>
     <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range. Comes with a quick detachable stock for ease of transport.</description>
     <graphicData>
-      <texPath>Things/Weapons/HécateII</texPath>
+      <texPath>Things/Weapons/HecateII</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -2585,7 +2585,7 @@
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.6,1.40</DrawSize>
+        <DrawSize>1.6,1.60</DrawSize>
         <DrawOffset>0.20,-0.05</DrawOffset>
       </li>
     </modExtensions>
