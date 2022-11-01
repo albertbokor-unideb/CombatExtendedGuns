@@ -706,9 +706,9 @@
       <WorkToMake>27000</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
       <ShotSpread>0.09</ShotSpread>
-      <SwayFactor>1.23</SwayFactor>
+      <SwayFactor>1.21</SwayFactor>
       <Bulk>8.80</Bulk>
-      <Mass>3.3</Mass>
+      <Mass>3.30</Mass>
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -718,7 +718,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>1.82</recoilAmount>
+        <recoilAmount>1.87</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
