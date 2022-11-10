@@ -14,7 +14,6 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - S-9 charge shotgun
 ### Assault/battle rifles
 - Winchester 94
-- SKS
 - AKM
 - FN FAL
 ### Sniper rifles
