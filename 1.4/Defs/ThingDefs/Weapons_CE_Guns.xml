@@ -623,7 +623,7 @@
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <warmupTime>1.1</warmupTime>
         <range>55</range>
-        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCast>Shot_CE_BattleRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -726,7 +726,7 @@
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <warmupTime>1.1</warmupTime>
         <range>44</range>
-        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCast>Shot_CE_AssaultRifleSlow</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -1138,7 +1138,7 @@
         <range>55</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>10</burstShotCount>
-        <soundCast>Shot_Minigun</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <targetParams>
@@ -1250,7 +1250,7 @@
         <range>62</range>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <burstShotCount>10</burstShotCount>
-        <soundCast>Shot_Minigun</soundCast>
+        <soundCast>Shot_CE_BattleRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <targetParams>
@@ -1359,7 +1359,7 @@
         <range>48</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>10</burstShotCount>
-        <soundCast>Shot_Minigun</soundCast>
+        <soundCast>Shot_CE_AssaultRifleSlow</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <targetParams>
@@ -1471,7 +1471,7 @@
         <range>62</range>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <burstShotCount>10</burstShotCount>
-        <soundCast>Shot_Minigun</soundCast>
+        <soundCast>Shot_CE_BattleRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <targetParams>
