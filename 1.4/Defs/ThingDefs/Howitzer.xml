@@ -93,7 +93,7 @@
         <minRange>20</minRange>
         <range>900</range>
         <burstShotCount>1</burstShotCount>
-        <soundCast>Mortar_LaunchA</soundCast>
+        <soundCast>120mm</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>50</muzzleFlashScale>
         <indirectFirePenalty>0.3</indirectFirePenalty>
