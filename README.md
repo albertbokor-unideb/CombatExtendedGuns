@@ -8,16 +8,13 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - S&W Governor
 - P-3 charge pistol
 ### SMG's
-- AKS-74U
 - S-14 charge SMG
 ### Shotguns
 - USAS-12
 - S-9 charge shotgun
 ### Assault/battle rifles
 - Winchester 94
-- SKS
-- AK-47
-- AK-12
+- AKM
 - FN FAL
 ### Sniper rifles
 - SVD
@@ -26,6 +23,7 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - R-11 charge sniper rifle
 - H-12 charge anti-materiel rifle
 ### Machine guns
+- M249
 - RPD
 - M60
 - PKM
