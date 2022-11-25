@@ -341,9 +341,6 @@
         <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <weaponTags>
       <li>SimpleGun</li>
       <li>CE_Sidearm</li>
@@ -421,9 +418,6 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>CE_AI_AR</li>
