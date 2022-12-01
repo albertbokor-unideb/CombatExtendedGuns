@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <ThingDef Name="BaseHumanMakeableGun_CE" ParentName="BaseMakeableGun" Abstract="True">
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
-    <comps>
-      <li Class="CompProperties_Biocodable"/>
-    </comps>
-  </ThingDef>
-
   <!-- ==================== Crossbow ==================== -->
 
   <ThingDef ParentName="BaseMakeableGun">
@@ -128,6 +119,7 @@
       </li>
     </verbs>
     <weaponTags>
+      <li>Gun</li>
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
@@ -227,6 +219,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <weaponTags>
+      <li>Gun</li>
       <li>SimpleGun</li>
       <li>NeolithicRangedHeavy</li>
       <li>NeolithicRangedChief</li>
@@ -292,7 +285,7 @@
 
   <!-- ==================== S&W Governor ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_SWGovernor</defName>
     <label>S&amp;W Governor</label>
     <description>Ancient revolver designed for self-defense. Fires a powerful pistol cartridge as well as small shotgun shells.</description>
@@ -381,7 +374,7 @@
 
   <!-- ==================== Winchester Model 1894 ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_WinchesterNintyFour</defName>
     <label>Winchester 94</label>
     <description>Ancient lever-action repeating rifle that became one of the most famous and popular hunting rifles of all time.</description>
@@ -479,7 +472,7 @@
 
   <!-- ==================== USAS-12 ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_USASTwelve</defName>
     <label>USAS-12</label>
     <description>Ancient assault shotgun designed for full-auto fire in close quarters.</description>
@@ -584,7 +577,7 @@
 
   <!-- ==================== FN FAL ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_FNFAL</defName>
     <label>FN FAL</label>
     <description>Ancient military assault rifle firing a full-power rifle cartridge.</description>
@@ -687,7 +680,7 @@
 
   <!-- ==================== AKM ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_AKM</defName>
     <label>AKM</label>
     <description>Ancient military weapon chambered for an intermediate cartridge. The simple design makes it easy to assemble and gives it high reliability.</description>
@@ -790,7 +783,7 @@
 
   <!-- ==================== SVD ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_SVD</defName>
     <label>SVD</label>
     <description>Sniper rifle with a fairly simple assembly. It is known for its reliability.</description>
@@ -894,7 +887,7 @@
 
   <!-- ==================== Hécate II ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_HecateTwo</defName>
     <label>Hecate II</label>
     <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range. Comes with a quick detachable stock for ease of transport.</description>
@@ -999,7 +992,7 @@
 
   <!-- ==================== PTRS ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_PTRS</defName>
     <label>PTRS-41</label>
     <description>Ancient anti-tank rifle, originally designed for use against primitive armored vehicles. Fires a very powerful cartridge but the large size and weight make it unwieldy.</description>
@@ -1099,7 +1092,7 @@
 
   <!-- ==================== M249 ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_MTwoFourNine</defName>
     <label>M249</label>
     <description>A belt-fed squad automatic weapon. It provides infantry squads with a high rate of machine gun fire, combined with the accuracy and portability of a rifle.</description>
@@ -1208,7 +1201,7 @@
 
   <!-- ==================== M60E6 ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_MSixty</defName>
     <label>M60E6</label>
     <description>A belt-fed general-purpose machine gun. Lots of firepower but heavy and cumbersome to carry around. Commonly nicknamed "The Pig".</description>
@@ -1320,7 +1313,7 @@
 
   <!-- ==================== RPD ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_RPD</defName>
     <label>RPD</label>
     <description>Ancient light machine gun design. The precursor to modern squad automatic weapons, it is comparatively light for a weapon of its class.</description>
@@ -1429,7 +1422,7 @@
 
   <!-- ==================== PKM ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_PKM</defName>
     <label>PKM</label>
     <description>Ancient general-purpose machine gun. The rugged design makes it a popular weapon for the people inhabiting Rimworlds.</description>
@@ -1541,7 +1534,7 @@
 
   <!-- ==================== RPG-7 ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_RPGSeven</defName>
     <label>RPG-7</label>
     <description>A short rocket-propelled grenade launcher that fires single projectiles which explode on impact. A relatively very cheap, multiple use alternative to single-shot launchers.</description>
@@ -1623,7 +1616,7 @@
 
   <!-- ==================== Milkor MGL ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_MilkorMGL</defName>
     <label>Milkor MGL</label>
     <description>Ancient, man-portable grenade launcher. The 6-shot cylinder allows for a relatively high volume of fire.</description>
@@ -1728,7 +1721,7 @@
 
   <!-- ==================== Charge Pistol ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargePistol</defName>
     <label>P-3 charge pistol</label>
     <description>A charged-shot pistol, commonly used by glitterworld police forces and mercenaries as a sidearm.</description>
@@ -1829,7 +1822,7 @@
 
   <!-- ==================== Charge Shotgun ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeShotgun</defName>
     <label>S-9 charge shotgun</label>
     <description>A charged-shot shotgun, designed for maximum lethality in close-quarters combat.</description>
@@ -1938,7 +1931,7 @@
 
   <!-- ==================== Charge SMG ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeSMG</defName>
     <label>S-14 charge SMG</label>
     <description>Charged-shot bullpup sub-machine gun highly effective in close-quarters combat.</description>
@@ -2052,7 +2045,7 @@
 
   <!-- ==================== Charge Sniper ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeSniperRifle</defName>
     <label>R-11 charge sniper rifle</label>
     <description>Charged-shot sniper rifle equipped with advanced optics for long-range shooting.</description>
@@ -2165,7 +2158,7 @@
 
   <!-- ==================== Charge LMG ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeLMG</defName>
     <label>L-20 charge LMG</label>
     <description>Charged-shot light machine gun designed for suppression.</description>
@@ -2284,7 +2277,7 @@
 
   <!-- ==================== Charge AMR ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeAMR</defName>
     <label>H-12 charge anti-materiel rifle</label>
     <description>Charged-shot anti-materiel rifle equipped with advanced optics for long-range shooting.</description>
@@ -2397,7 +2390,7 @@
 
   <!-- ==================== Flamethrower ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_Flamethrower</defName>
     <label>RM2 Flamethrower</label>
     <description>Unconventional flamethrower design that uses replaceable canisters of pressurized fuel canisters instead of a back-mounted tank. Less encumbering but needs to reload frequently.</description>
