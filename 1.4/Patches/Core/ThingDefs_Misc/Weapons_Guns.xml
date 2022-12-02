@@ -105,7 +105,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Gun_ChargeRifle"]/label</xpath>
     <value>
-      <label>R-15 charge rifle</label>
+      <label>R-6 charge rifle</label>
     </value>
   </Operation>
 

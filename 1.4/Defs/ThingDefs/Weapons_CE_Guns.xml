@@ -1723,7 +1723,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargePistol</defName>
-    <label>P-3 charge pistol</label>
+    <label>P-10 charge pistol</label>
     <description>A charged-shot pistol, commonly used by glitterworld police forces and mercenaries as a sidearm.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -1780,7 +1780,6 @@
       <li>CE_AI_BROOM</li>
     </weaponTags>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <recipeMaker>
@@ -1824,7 +1823,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeShotgun</defName>
-    <label>S-9 charge shotgun</label>
+    <label>S-12 charge shotgun</label>
     <description>A charged-shot shotgun, designed for maximum lethality in close-quarters combat.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -1879,7 +1878,6 @@
       <li>CE_AI_BROOM</li>
     </weaponTags>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <recipeMaker>
@@ -1933,7 +1931,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeSMG</defName>
-    <label>S-14 charge SMG</label>
+    <label>S-6 charge SMG</label>
     <description>Charged-shot bullpup sub-machine gun highly effective in close-quarters combat.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -1999,7 +1997,6 @@
       <li>CE_AI_BROOM</li>
     </weaponTags>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <tools>
@@ -2047,7 +2044,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeSniperRifle</defName>
-    <label>R-11 charge sniper rifle</label>
+    <label>R-8 charge sniper rifle</label>
     <description>Charged-shot sniper rifle equipped with advanced optics for long-range shooting.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -2106,7 +2103,6 @@
       <li>Bipod_DMR</li>
     </weaponTags>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <recipeMaker>
@@ -2160,7 +2156,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeLMG</defName>
-    <label>L-20 charge LMG</label>
+    <label>L-8 charge LMG</label>
     <description>Charged-shot light machine gun designed for suppression.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -2225,7 +2221,6 @@
       <li>Bipod_LMG</li>
     </weaponTags>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <recipeMaker>
@@ -2279,7 +2274,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeAMR</defName>
-    <label>H-12 charge anti-materiel rifle</label>
+    <label>A-12 charge anti-materiel rifle</label>
     <description>Charged-shot anti-materiel rifle equipped with advanced optics for long-range shooting.</description>
     <graphicData>
       <texPath>Things/Weapons/ChargeAMR</texPath>
@@ -2308,7 +2303,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>2.81</recoilAmount>
+        <recoilAmount>2.66</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12x72mmCharged</defaultProjectile>
@@ -2338,7 +2333,6 @@
       <li>Bipod_AMR</li>
     </weaponTags>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <recipeMaker>
@@ -2382,7 +2376,7 @@
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.6,1.60</DrawSize>
+        <DrawSize>1.6,1.6</DrawSize>
         <DrawOffset>0.20,-0.05</DrawOffset>
       </li>
     </modExtensions>
