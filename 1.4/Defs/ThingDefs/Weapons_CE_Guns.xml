@@ -412,8 +412,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-      <li>CE_AI_AR</li>
+      <li>SimpleGun</li>
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
