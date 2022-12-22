@@ -141,7 +141,7 @@
         <li>FueledSmithy</li>
         <li>ElectricSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>Gunpowder</researchPrerequisite>
+      <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -240,7 +240,7 @@
         <li>FueledSmithy</li>
         <li>ElectricSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>Gunpowder</researchPrerequisite>
+      <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
