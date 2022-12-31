@@ -1742,7 +1742,7 @@
     <label>RPG-7</label>
     <description>A short rocket-propelled grenade launcher that fires single projectiles which explode on impact. A relatively very cheap, multiple use alternative to single-shot launchers.</description>
     <graphicData>
-      <texPath>Things/Weapons/RPG/RPG_HEAT</texPath>
+      <texPath>Things/Weapons/RPG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
