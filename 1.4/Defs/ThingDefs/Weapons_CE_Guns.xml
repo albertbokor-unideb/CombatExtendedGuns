@@ -579,7 +579,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_FNFAL</defName>
     <label>FN FAL</label>
-    <description>Ancient military assault rifle firing a full-power rifle cartridge.</description>
+    <description>Ancient military battle rifle firing a full-power rifle cartridge. Famous for being the right hand of the free world.</description>
     <graphicData>
       <texPath>Things/Weapons/FNFAL</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -785,7 +785,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_SVD</defName>
     <label>SVD</label>
-    <description>Sniper rifle with a fairly simple assembly. It is known for its reliability.</description>
+    <description>Ancient sniper rifle with a fairly simple assembly. It is known for its reliability.</description>
     <graphicData>
       <texPath>Things/Weapons/SVD</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1094,7 +1094,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_MTwoFourNine</defName>
     <label>M249</label>
-    <description>A belt-fed squad automatic weapon. It provides infantry squads with a high rate of machine gun fire, combined with the accuracy and portability of a rifle.</description>
+    <description>Ancient belt-fed squad automatic weapon. It provides infantry squads with a high rate of machine gun fire, combined with the accuracy and portability of a rifle.</description>
     <graphicData>
       <texPath>Things/Weapons/M249</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1203,7 +1203,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_MSixty</defName>
     <label>M60E6</label>
-    <description>A belt-fed general-purpose machine gun. Lots of firepower but heavy and cumbersome to carry around. Commonly nicknamed "The Pig".</description>
+    <description>Ancient belt-fed general-purpose machine gun. Lots of firepower but heavy and cumbersome to carry around. Commonly nicknamed "The Pig".</description>
     <graphicData>
       <texPath>Things/Weapons/M60</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1538,7 +1538,7 @@
     <label>RPG-7</label>
     <description>A short rocket-propelled grenade launcher that fires single projectiles which explode on impact. A relatively very cheap, multiple use alternative to single-shot launchers.</description>
     <graphicData>
-      <texPath>Things/Weapons/RPG/RPG_HEAT</texPath>
+      <texPath>Things/Weapons/RPG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -1723,7 +1723,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargePistol</defName>
     <label>P-10 charge pistol</label>
-    <description>A charged-shot pistol, commonly used by glitterworld police forces and mercenaries as a sidearm.</description>
+    <description>Charged-shot pistol, commonly used by glitterworld police forces and mercenaries as a sidearm.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/ChargePistol</texPath>
@@ -1823,7 +1823,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargeShotgun</defName>
     <label>S-12 charge shotgun</label>
-    <description>A charged-shot shotgun, designed for maximum lethality in close-quarters combat.</description>
+    <description>Charged-shot shotgun, designed for maximum lethality in close-quarters combat.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/ChargeShotgun</texPath>
