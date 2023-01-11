@@ -81,7 +81,7 @@
   <ThingDef ParentName="BaseMakeableGun">
     <defName>CE_Gun_FlintlockPistol</defName>
     <label>flintlock pistol</label>
-    <description>This pistol features a smoothbore barrel and a long, wooden grip ending in a knob. As its name implies, the flintlock pistol is operated by a flintlock mechanism.</description>
+    <description>An ancient pistol featuring a smoothbore barrel and a long, wooden grip ending in a knob. As its name implies, the flintlock pistol is operated by a flintlock mechanism.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Things/Weapons/Flintlock_Pistol</texPath>
@@ -168,8 +168,117 @@
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.15,1.25</DrawSize>
+        <DrawSize>0.85,0.85</DrawSize>
         <DrawOffset>0.0,0.0</DrawOffset>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ==================== Flintlock Blunderbuss ==================== -->
+
+  <ThingDef ParentName="BaseMakeableGun">
+    <defName>CE_Gun_FlintlockBlunderbuss</defName>
+    <label>flintlock blunderbuss</label>
+    <description>An ancient muzzle-loaded firearm with a short, large caliber barrel which is flared at the muzzle and frequently throughout the entire bore, and used with shot and other projectiles of relevant quantity or caliber. The blunderbuss is commonly considered to be an early predecessor of the modern shotgun, with similar military and defensive use.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/Flintlock_Blunderbuss</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <weaponClasses>
+      <li>ShortShots</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2.4</Mass>
+      <Bulk>7.8</Bulk>
+      <ShotSpread>0.14</ShotSpread>
+      <SwayFactor>1.02</SwayFactor>
+      <SightsEfficiency>0.8</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>3.30</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_BlunderbussShot</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>16</range>
+        <soundCast>Shot_CE_Musket</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>Gun</li>
+      <li>SimpleGun</li>
+      <li>NeolithicRangedHeavy</li>
+      <li>NeolithicRangedChief</li>
+      <li>CE_AI_BROOM</li>
+    </weaponTags>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>1</magazineSize>
+        <reloadTime>9</reloadTime>
+        <ammoSet>AmmoSet_BlunderbussShot</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>Snapshot</aiAimMode>
+      </li>
+    </comps>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
+    </recipeMaker>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>0.95,0.95</DrawSize>
+        <DrawOffset>0.00,0.0</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
@@ -195,7 +304,7 @@
       <Bulk>14.0</Bulk>
       <ShotSpread>0.15</ShotSpread>
       <SwayFactor>1.92</SwayFactor>
-      <SightsEfficiency>0.9</SightsEfficiency>
+      <SightsEfficiency>0.8</SightsEfficiency>
       <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -267,18 +376,19 @@
       <li Class="CombatExtended.ToolCE">
         <label>muzzle</label>
         <capacities>
-          <li>Poke</li>
+          <li>Stab</li>
         </capacities>
-        <power>8</power>
+        <power>13</power>
         <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationSharp>1.3</armorPenetrationSharp>
         <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
-        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
       </li>
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.25,1.4</DrawSize>
-        <DrawOffset>0.08,-0.05</DrawOffset>
+        <DrawSize>1.6,1.6</DrawSize>
+        <DrawOffset>0.35,0.0</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>
