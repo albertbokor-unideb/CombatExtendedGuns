@@ -299,7 +299,7 @@
       <li>LongShots</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>20000</WorkToMake>
+      <WorkToMake>13000</WorkToMake>
       <Mass>4.50</Mass>
       <Bulk>14.0</Bulk>
       <ShotSpread>0.15</ShotSpread>
@@ -309,7 +309,7 @@
     </statBases>
     <costList>
       <Steel>65</Steel>
-      <WoodLog>30</WoodLog>
+      <WoodLog>25</WoodLog>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
