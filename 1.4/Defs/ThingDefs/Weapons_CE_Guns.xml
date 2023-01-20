@@ -1832,7 +1832,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargePistol</defName>
-    <label>P-10 charge pistol</label>
+    <label>P-6 charge pistol</label>
     <description>Charged-shot pistol, commonly used by glitterworld police forces and mercenaries as a sidearm.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -1845,12 +1845,12 @@
     </weaponClasses>
     <statBases>
       <WorkToMake>17000</WorkToMake>
-      <Mass>1.0</Mass>
-      <Bulk>2.25</Bulk>
+      <Mass>0.8</Mass>
+      <Bulk>2.0</Bulk>
       <ShotSpread>0.15</ShotSpread>
-      <SwayFactor>1.08</SwayFactor>
-      <SightsEfficiency>1.10</SightsEfficiency>
-      <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+      <SwayFactor>0.93</SwayFactor>
+      <SightsEfficiency>0.8</SightsEfficiency>
+      <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>20</Steel>
@@ -1860,10 +1860,10 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>3.10</recoilAmount>
+        <recoilAmount>2.47</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_10x18mmCharged</defaultProjectile>
+        <defaultProjectile>Bullet_6x18mmCharged</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>16</range>
         <soundCast>Shot_ChargeRifle</soundCast>
@@ -1873,9 +1873,9 @@
     </verbs>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>15</magazineSize>
+        <magazineSize>16</magazineSize>
         <reloadTime>4</reloadTime>
-        <ammoSet>AmmoSet_10x18mmCharged</ammoSet>
+        <ammoSet>AmmoSet_6x18mmCharged</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiAimMode>Snapshot</aiAimMode>
@@ -1922,7 +1922,7 @@
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.15,1.28</DrawSize>
+        <DrawSize>1.15,1.15</DrawSize>
         <DrawOffset>0.05,-0.05</DrawOffset>
       </li>
     </modExtensions>
