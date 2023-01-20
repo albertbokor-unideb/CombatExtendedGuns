@@ -1873,7 +1873,7 @@
     </verbs>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>16</magazineSize>
+        <magazineSize>12</magazineSize>
         <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_6x18mmCharged</ammoSet>
       </li>
