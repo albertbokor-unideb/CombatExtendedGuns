@@ -51,7 +51,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
-        <reloadTime>5</reloadTime>
+        <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_CrossbowBolt</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -131,7 +131,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
-        <reloadTime>6</reloadTime>
+        <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_SlowMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -231,7 +231,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
-        <reloadTime>9</reloadTime>
+        <reloadTime>4.9</reloadTime>
         <ammoSet>AmmoSet_BlunderbussShot</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -341,7 +341,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>4</AmmoGenPerMagOverride>
-        <reloadTime>9</reloadTime>
+        <reloadTime>4.9</reloadTime>
         <ammoSet>AmmoSet_FastMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
