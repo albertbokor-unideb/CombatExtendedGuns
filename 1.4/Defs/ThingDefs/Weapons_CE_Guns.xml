@@ -97,7 +97,7 @@
       <WorkToMake>2500</WorkToMake>
       <Mass>1.25</Mass>
       <Bulk>3.50</Bulk>
-      <ShotSpread>0.20</ShotSpread>
+      <ShotSpread>0.42</ShotSpread>
       <SwayFactor>1.58</SwayFactor>
       <SightsEfficiency>0.5</SightsEfficiency>
       <RangedWeapon_Cooldown>1.06</RangedWeapon_Cooldown>
@@ -112,7 +112,7 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_SlowMusketBall</defaultProjectile>
-        <warmupTime>0.6</warmupTime>
+        <warmupTime>0.9</warmupTime>
         <range>12</range>
         <soundCast>Shot_CE_Musket</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -131,7 +131,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
-        <reloadTime>7.9</reloadTime>
+        <reloadTime>5.9</reloadTime>
         <ammoSet>AmmoSet_SlowMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -210,7 +210,7 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BlunderbussShot</defaultProjectile>
-        <warmupTime>0.6</warmupTime>
+        <warmupTime>0.9</warmupTime>
         <range>16</range>
         <soundCast>Shot_CE_Musket</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -320,7 +320,7 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_FastMusketBall</defaultProjectile>
-        <warmupTime>1.1</warmupTime>
+        <warmupTime>1.4</warmupTime>
         <range>35</range>
         <soundCast>Shot_CE_Musket</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
