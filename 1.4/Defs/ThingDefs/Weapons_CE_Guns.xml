@@ -94,17 +94,17 @@
       <li>ShortShots</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>3500</WorkToMake>
+      <WorkToMake>2500</WorkToMake>
       <Mass>1.25</Mass>
       <Bulk>3.50</Bulk>
-      <ShotSpread>0.20</ShotSpread>
-      <SwayFactor>1.12</SwayFactor>
-      <SightsEfficiency>0.70</SightsEfficiency>
-      <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+      <ShotSpread>0.42</ShotSpread>
+      <SwayFactor>1.58</SwayFactor>
+      <SightsEfficiency>0.5</SightsEfficiency>
+      <RangedWeapon_Cooldown>1.06</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>25</Steel>
-      <WoodLog>15</WoodLog>
+      <WoodLog>5</WoodLog>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -112,7 +112,7 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_SlowMusketBall</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
+        <warmupTime>0.9</warmupTime>
         <range>12</range>
         <soundCast>Shot_CE_Musket</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -131,7 +131,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
-        <reloadTime>4.9</reloadTime>
+        <reloadTime>5.9</reloadTime>
         <ammoSet>AmmoSet_SlowMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -192,25 +192,25 @@
       <li>ShortShots</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>9000</WorkToMake>
+      <WorkToMake>7000</WorkToMake>
       <Mass>2.4</Mass>
       <Bulk>7.8</Bulk>
-      <ShotSpread>0.14</ShotSpread>
+      <ShotSpread>0.42</ShotSpread>
       <SwayFactor>1.02</SwayFactor>
       <SightsEfficiency>0.8</SightsEfficiency>
-      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.09</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>50</Steel>
-      <WoodLog>20</WoodLog>
+      <Steel>40</Steel>
+      <WoodLog>10</WoodLog>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>3.30</recoilAmount>
+        <recoilAmount>4.18</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BlunderbussShot</defaultProjectile>
-        <warmupTime>0.6</warmupTime>
+        <warmupTime>0.9</warmupTime>
         <range>16</range>
         <soundCast>Shot_CE_Musket</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -231,7 +231,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
-        <reloadTime>6.9</reloadTime>
+        <reloadTime>7.9</reloadTime>
         <ammoSet>AmmoSet_BlunderbussShot</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
@@ -302,25 +302,25 @@
       <li>LongShots</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>13000</WorkToMake>
+      <WorkToMake>11000</WorkToMake>
       <Mass>4.50</Mass>
       <Bulk>14.0</Bulk>
-      <ShotSpread>0.15</ShotSpread>
-      <SwayFactor>1.92</SwayFactor>
+      <ShotSpread>0.03</ShotSpread>
+      <SwayFactor>1.85</SwayFactor>
       <SightsEfficiency>0.8</SightsEfficiency>
-      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.03</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>65</Steel>
-      <WoodLog>25</WoodLog>
+      <Steel>70</Steel>
+      <WoodLog>10</WoodLog>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>2.55</recoilAmount>
+        <recoilAmount>2.53</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_FastMusketBall</defaultProjectile>
-        <warmupTime>2.0</warmupTime>
+        <warmupTime>1.4</warmupTime>
         <range>35</range>
         <soundCast>Shot_CE_Musket</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -341,7 +341,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
         <AmmoGenPerMagOverride>4</AmmoGenPerMagOverride>
-        <reloadTime>6.9</reloadTime>
+        <reloadTime>7.9</reloadTime>
         <ammoSet>AmmoSet_FastMusketBall</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
