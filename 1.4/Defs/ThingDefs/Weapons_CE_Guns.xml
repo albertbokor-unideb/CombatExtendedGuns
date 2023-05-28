@@ -719,7 +719,7 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-        <burstShotCount>6</burstShotCount>
+        <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <warmupTime>1.1</warmupTime>
         <range>55</range>
@@ -744,7 +744,7 @@
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiUseBurstMode>TRUE</aiUseBurstMode>
         <aiAimMode>AimedShot</aiAimMode>
-        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aimedBurstShotCount>2</aimedBurstShotCount>
       </li>
     </comps>
     <recipeMaker>
