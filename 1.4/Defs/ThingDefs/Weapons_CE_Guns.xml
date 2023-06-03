@@ -64,6 +64,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -144,6 +147,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -244,6 +250,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -354,6 +363,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -448,6 +460,12 @@
         <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
+    <recipeMaker>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
       <li>CE_Sidearm</li>
@@ -541,6 +559,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -646,6 +667,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -749,6 +773,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -852,6 +879,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -956,6 +986,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1061,6 +1094,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1157,6 +1193,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1270,6 +1309,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1382,6 +1424,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1482,6 +1527,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
@@ -1603,6 +1651,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1706,6 +1757,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>CE_Launchers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1791,6 +1845,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>CE_Launchers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1901,6 +1958,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1999,6 +2059,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2102,6 +2165,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <weaponTags>
       <li>AdvancedGun</li>
@@ -2224,6 +2290,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2342,6 +2411,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2454,6 +2526,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2561,6 +2636,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>CE_Launchers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
