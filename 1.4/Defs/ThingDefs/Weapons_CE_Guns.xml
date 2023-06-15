@@ -64,6 +64,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -144,6 +147,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -244,6 +250,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -354,6 +363,9 @@
         <li>ElectricSmithy</li>
       </recipeUsers>
       <researchPrerequisite>CE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -448,6 +460,12 @@
         <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
+    <recipeMaker>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <weaponTags>
       <li>SimpleGun</li>
       <li>CE_Sidearm</li>
@@ -541,6 +559,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -646,6 +667,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -749,6 +773,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -852,6 +879,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -956,6 +986,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1061,6 +1094,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1157,6 +1193,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1270,6 +1309,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1382,6 +1424,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1482,6 +1527,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
       <li>RewardStandardQualitySuper</li>
@@ -1603,6 +1651,9 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1706,6 +1757,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>CE_Launchers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1791,6 +1845,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>CE_Launchers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1837,7 +1894,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_ChargePistol</defName>
-    <label>P-6 charge pistol</label>
+    <label>P-10 charge pistol</label>
     <description>Charged-shot pistol, commonly used by glitterworld police forces and mercenaries as a sidearm.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -1850,12 +1907,12 @@
     </weaponClasses>
     <statBases>
       <WorkToMake>17000</WorkToMake>
-      <Mass>0.8</Mass>
-      <Bulk>2.0</Bulk>
+      <Mass>1.1</Mass>
+      <Bulk>2.25</Bulk>
       <ShotSpread>0.15</ShotSpread>
-      <SwayFactor>0.93</SwayFactor>
+      <SwayFactor>1.12</SwayFactor>
       <SightsEfficiency>0.8</SightsEfficiency>
-      <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>20</Steel>
@@ -1865,32 +1922,33 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>2.47</recoilAmount>
+        <recoilAmount>2.96</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_6x18mmCharged</defaultProjectile>
+        <defaultProjectile>Bullet_10x18mmCharged</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>16</range>
         <soundCast>Shot_ChargeRifle</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
+        <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>12</magazineSize>
+        <magazineSize>10</magazineSize>
         <reloadTime>4</reloadTime>
-        <ammoSet>AmmoSet_6x18mmCharged</ammoSet>
+        <ammoSet>AmmoSet_10x18mmCharged</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiAimMode>Snapshot</aiAimMode>
       </li>
     </comps>
     <weaponTags>
-      <li>CE_Sidearm</li>
-      <li>CE_OneHandedWeapon</li>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
+      <li>CE_Sidearm</li>
+      <li>CE_SpacerSidearm</li>
+      <li>CE_OneHandedWeapon</li>
       <li>CE_AI_BROOM</li>
     </weaponTags>
     <thingSetMakerTags>
@@ -1901,6 +1959,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -1999,6 +2060,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2102,11 +2166,15 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <weaponTags>
       <li>AdvancedGun</li>
       <li>SpacerGun</li>
       <li>CE_OneHandedWeapon</li>
+      <li>CE_SpacerSidearm</li>
       <li>CE_SMG</li>
       <li>CE_AI_BROOM</li>
     </weaponTags>
@@ -2224,6 +2292,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2342,6 +2413,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2454,6 +2528,9 @@
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
@@ -2561,6 +2638,9 @@
     </comps>
     <recipeMaker>
       <researchPrerequisite>CE_Launchers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
