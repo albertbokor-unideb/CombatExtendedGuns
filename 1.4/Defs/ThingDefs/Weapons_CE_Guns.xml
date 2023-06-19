@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+  <!-- ==================== Base Medieval ==================== -->
+
+  <ThingDef Name="BaseWeaponRangedMedieval" Abstract="True" ParentName="BaseWeaponNeolithic">
+    <weaponClasses>
+      <li>Ranged</li>
+    </weaponClasses>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <statBases>
+      <Flammability>0.75</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+  
   <!-- ==================== Crossbow ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseWeaponRangedMedieval">
     <defName>CE_Gun_Crossbow</defName>
     <label>crossbow</label>
     <description>A medieval bow-like armament which launches bolts instead of arrows at relatively fast speeds. Easier to operate and more accurate than a bow in exchange of a lower fire rate.</description>
@@ -79,7 +100,7 @@
 
   <!-- ==================== Flintlock Pistol ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseWeaponRangedMedieval">
     <defName>CE_Gun_FlintlockPistol</defName>
     <label>flintlock pistol</label>
     <description>An ancient pistol featuring a smoothbore barrel and a long, wooden grip ending in a knob. As its name implies, the flintlock pistol is operated by a flintlock mechanism.</description>
@@ -178,7 +199,7 @@
 
   <!-- ==================== Flintlock Blunderbuss ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseWeaponRangedMedieval">
     <defName>CE_Gun_FlintlockBlunderbuss</defName>
     <label>flintlock blunderbuss</label>
     <description>An ancient muzzle-loaded firearm with a short, large caliber barrel which is flared at the muzzle and frequently throughout the entire bore, and used with shot and other projectiles of relevant quantity or caliber. The blunderbuss is commonly considered to be an early predecessor of the modern shotgun, with similar military and defensive use.</description>
@@ -288,7 +309,7 @@
 
   <!-- ==================== Flintlock Musket ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseWeaponRangedMedieval">
     <defName>CE_Gun_FlintlockMusket</defName>
     <label>flintlock musket</label>
     <description>An ancient pattern musket. As one of the first of its kind, it only has short range and low fire rate.</description>
