@@ -89,6 +89,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Revolver</soundInteract>
+    <generateCommonality>0.33</generateCommonality>
     <weaponClasses>
       <li>RangedLight</li>
       <li>ShortShots</li>
@@ -192,6 +193,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.33</generateCommonality>
     <weaponClasses>
       <li>ShortShots</li>
     </weaponClasses>
@@ -306,6 +308,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.33</generateCommonality>
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>
