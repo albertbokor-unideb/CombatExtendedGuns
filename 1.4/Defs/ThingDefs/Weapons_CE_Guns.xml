@@ -51,7 +51,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
-        <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
+        <AmmoGenPerMagOverride>2</AmmoGenPerMagOverride>
         <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_CrossbowBolt</ammoSet>
       </li>
@@ -122,8 +122,6 @@
     <weaponTags>
       <li>Gun</li>
       <li>SimpleGun</li>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
       <li>CE_AI_BROOM</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
@@ -229,8 +227,6 @@
     <weaponTags>
       <li>Gun</li>
       <li>SimpleGun</li>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
       <li>CE_AI_BROOM</li>
     </weaponTags>
     <comps>
@@ -345,8 +341,6 @@
     <weaponTags>
       <li>Gun</li>
       <li>SimpleGun</li>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
       <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
