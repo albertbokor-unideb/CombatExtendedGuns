@@ -51,7 +51,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>1</magazineSize>
-        <AmmoGenPerMagOverride>3</AmmoGenPerMagOverride>
+        <AmmoGenPerMagOverride>2</AmmoGenPerMagOverride>
         <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_CrossbowBolt</ammoSet>
       </li>
@@ -89,6 +89,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Revolver</soundInteract>
+    <generateCommonality>0.33</generateCommonality>
     <weaponClasses>
       <li>RangedLight</li>
       <li>ShortShots</li>
@@ -122,8 +123,6 @@
     <weaponTags>
       <li>Gun</li>
       <li>SimpleGun</li>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
       <li>CE_AI_BROOM</li>
       <li>CE_OneHandedWeapon</li>
     </weaponTags>
@@ -194,6 +193,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.33</generateCommonality>
     <weaponClasses>
       <li>ShortShots</li>
     </weaponClasses>
@@ -229,8 +229,6 @@
     <weaponTags>
       <li>Gun</li>
       <li>SimpleGun</li>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
       <li>CE_AI_BROOM</li>
     </weaponTags>
     <comps>
@@ -310,6 +308,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.33</generateCommonality>
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>
@@ -345,8 +344,6 @@
     <weaponTags>
       <li>Gun</li>
       <li>SimpleGun</li>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
       <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
