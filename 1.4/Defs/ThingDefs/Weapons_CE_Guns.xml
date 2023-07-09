@@ -520,7 +520,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>12500</WorkToMake>
       <SightsEfficiency>1</SightsEfficiency>
       <ShotSpread>0.05</ShotSpread>
       <SwayFactor>1.38</SwayFactor>
@@ -530,7 +530,7 @@
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <WoodLog>10</WoodLog>
     </costList>
     <verbs>
@@ -2618,13 +2618,13 @@
         <warmupTime>1.1</warmupTime>
         <range>11</range>
         <minRange>3</minRange>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>20</burstShotCount>
+        <soundCast>HissFlamethrower</soundCast>
+        <muzzleFlashScale>0</muzzleFlashScale>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <soundCast>HissFlamethrower</soundCast>
-        <muzzleFlashScale>0</muzzleFlashScale>
-        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <burstShotCount>20</burstShotCount>
       </li>
     </verbs>
     <comps>
@@ -2646,17 +2646,6 @@
       </skillRequirements>
     </recipeMaker>
     <tools>
-      <li Class="CombatExtended.ToolCE">
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>1.55</cooldownTime>
-        <chanceFactor>1.5</chanceFactor>
-        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
-        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
-      </li>
       <li Class="CombatExtended.ToolCE">
         <label>barrel</label>
         <capacities>
