@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
 	<Operation Class="PatchOperationFindMod">
@@ -9,7 +9,7 @@
 			<operations>
 
 				<!-- ========== 105mm Howitzer - Long Range Artillery ========== -->
-	  
+
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName = "CE_Artillery_Howitzer"]</xpath>
 					<value>

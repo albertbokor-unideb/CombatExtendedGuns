@@ -9,7 +9,6 @@
 	<CE_Gun_TaurusJudge.tools.1.label>ствол</CE_Gun_TaurusJudge.tools.1.label>
 	<CE_Gun_TaurusJudge.tools.2.label>дуло</CE_Gun_TaurusJudge.tools.2.label>
 
-
 	<!-- P7 -->
 
 	<CE_Gun_PSeven.label>P7</CE_Gun_PSeven.label>
@@ -17,7 +16,6 @@
 	<CE_Gun_PSeven.tools.0.label>рукоять</CE_Gun_PSeven.tools.0.label>
 	<CE_Gun_PSeven.tools.1.label>ствол</CE_Gun_PSeven.tools.1.label>
 	<CE_Gun_PSeven.tools.2.label>дуло</CE_Gun_PSeven.tools.2.label>
-
 
 	<!-- USAS-12 -->
 
@@ -27,7 +25,6 @@
 	<CE_Gun_USASTwelve.tools.1.label>ствол</CE_Gun_USASTwelve.tools.1.label>
 	<CE_Gun_USASTwelve.tools.2.label>дуло</CE_Gun_USASTwelve.tools.2.label>
 
-
 	<!-- KRISS Vector -->
 
 	<CE_Gun_KrissVector.label>KRISS Vector</CE_Gun_KrissVector.label>
@@ -35,7 +32,6 @@
 	<CE_Gun_KrissVector.tools.0.label>приклад</CE_Gun_KrissVector.tools.0.label>
 	<CE_Gun_KrissVector.tools.1.label>ствол</CE_Gun_KrissVector.tools.1.label>
 	<CE_Gun_KrissVector.tools.2.label>дуло</CE_Gun_KrissVector.tools.2.label>
-
 
 	<!-- FN FAL -->
 
@@ -45,7 +41,6 @@
 	<CE_Gun_FNFAL.tools.1.label>ствол</CE_Gun_FNFAL.tools.1.label>
 	<CE_Gun_FNFAL.tools.2.label>дуло</CE_Gun_FNFAL.tools.2.label>
 
-
 	<!-- SKS -->
 
 	<CE_Gun_SKS.label>СКС</CE_Gun_SKS.label>
@@ -53,7 +48,6 @@
 	<CE_Gun_SKS.tools.0.label>приклад</CE_Gun_SKS.tools.0.label>
 	<CE_Gun_SKS.tools.1.label>ствол</CE_Gun_SKS.tools.1.label>
 	<CE_Gun_SKS.tools.2.label>дуло</CE_Gun_SKS.tools.2.label>
-
 
 	<!-- AK-47 -->
 
@@ -63,7 +57,6 @@
 	<CE_Gun_AKFortySeven.tools.1.label>ствол</CE_Gun_AKFortySeven.tools.1.label>
 	<CE_Gun_AKFortySeven.tools.2.label>дуло</CE_Gun_AKFortySeven.tools.2.label>
 
-
 	<!-- AK-12 -->
 
 	<CE_Gun_AKTwelve.label>АК-12</CE_Gun_AKTwelve.label>
@@ -71,7 +64,6 @@
 	<CE_Gun_AKTwelve.tools.0.label>приклад</CE_Gun_AKTwelve.tools.0.label>
 	<CE_Gun_AKTwelve.tools.1.label>ствол</CE_Gun_AKTwelve.tools.1.label>
 	<CE_Gun_AKTwelve.tools.2.label>дуло</CE_Gun_AKTwelve.tools.2.label>
-
 
 	<!-- AKS-74U -->
 
@@ -81,7 +73,6 @@
 	<CE_Gun_AKSSeventyFourU.tools.1.label>ствол</CE_Gun_AKSSeventyFourU.tools.1.label>
 	<CE_Gun_AKSSeventyFourU.tools.2.label>дуло</CE_Gun_AKSSeventyFourU.tools.2.label>
 
-
 	<!-- SVD -->
 
 	<CE_Gun_SVD.label>СВД</CE_Gun_SVD.label>
@@ -89,7 +80,6 @@
 	<CE_Gun_SVD.tools.0.label>приклад</CE_Gun_SVD.tools.0.label>
 	<CE_Gun_SVD.tools.1.label>ствол</CE_Gun_SVD.tools.1.label>
 	<CE_Gun_SVD.tools.2.label>дуло</CE_Gun_SVD.tools.2.label>
-
 
 	<!-- Tac-50 -->
 
@@ -99,7 +89,6 @@
 	<CE_Gun_TacFifty.tools.1.label>ствол</CE_Gun_TacFifty.tools.1.label>
 	<CE_Gun_TacFifty.tools.2.label>дуло</CE_Gun_TacFifty.tools.2.label>
 
-
 	<!-- PTRS -->
 
 	<CE_Gun_PTRS.label>ПТРС-41</CE_Gun_PTRS.label>
@@ -107,7 +96,6 @@
 	<CE_Gun_PTRS.tools.0.label>приклад</CE_Gun_PTRS.tools.0.label>
 	<CE_Gun_PTRS.tools.1.label>ствол</CE_Gun_PTRS.tools.1.label>
 	<CE_Gun_PTRS.tools.2.label>дуло</CE_Gun_PTRS.tools.2.label>
-
 
 	<!-- M60 machine gun -->
 
@@ -117,7 +105,6 @@
 	<CE_Gun_MSixty.tools.1.label>ствол</CE_Gun_MSixty.tools.1.label>
 	<CE_Gun_MSixty.tools.2.label>дуло</CE_Gun_MSixty.tools.2.label>
 
-
 	<!-- RPD -->
 
 	<CE_Gun_RPD.label>РПД</CE_Gun_RPD.label>
@@ -125,7 +112,6 @@
 	<CE_Gun_RPD.tools.0.label>приклад</CE_Gun_RPD.tools.0.label>
 	<CE_Gun_RPD.tools.1.label>ствол</CE_Gun_RPD.tools.1.label>
 	<CE_Gun_RPD.tools.2.label>дуло</CE_Gun_RPD.tools.2.label>
-
 
 	<!-- PKM -->
 
@@ -135,7 +121,6 @@
 	<CE_Gun_PKM.tools.1.label>ствол</CE_Gun_PKM.tools.1.label>
 	<CE_Gun_PKM.tools.2.label>дуло</CE_Gun_PKM.tools.2.label>
 
-
 	<!-- RPG-7 -->
 
 	<CE_Gun_RPGSeven.label>РПГ-7</CE_Gun_RPGSeven.label>
@@ -143,7 +128,6 @@
 	<CE_Gun_RPGSeven.tools.0.label>приклад</CE_Gun_RPGSeven.tools.0.label>
 	<CE_Gun_RPGSeven.tools.1.label>ствол</CE_Gun_RPGSeven.tools.1.label>
 	<CE_Gun_RPGSeven.tools.2.label>дуло</CE_Gun_RPGSeven.tools.2.label>
-
 
 	<!-- M72 LAW -->
 
@@ -153,7 +137,6 @@
 	<CE_Gun_M72LAW.tools.1.label>ствол</CE_Gun_M72LAW.tools.1.label>
 	<CE_Gun_M72LAW.tools.2.label>дуло</CE_Gun_M72LAW.tools.2.label>
 
-
 	<!-- Milkor MGL -->
 
 	<CE_Gun_MilkorMGL.label>Milkor MGL</CE_Gun_MilkorMGL.label>
@@ -161,7 +144,6 @@
 	<CE_Gun_MilkorMGL.tools.0.label>приклад</CE_Gun_MilkorMGL.tools.0.label>
 	<CE_Gun_MilkorMGL.tools.1.label>ствол</CE_Gun_MilkorMGL.tools.1.label>
 	<CE_Gun_MilkorMGL.tools.2.label>дуло</CE_Gun_MilkorMGL.tools.2.label>
-
 
 	<!-- Charge LMG -->
 
@@ -171,7 +153,6 @@
 	<CE_Gun_ChargeLMG.tools.1.label>ствол</CE_Gun_ChargeLMG.tools.1.label>
 	<CE_Gun_ChargeLMG.tools.2.label>дуло</CE_Gun_ChargeLMG.tools.2.label>
 
-
 	<!-- Charge Sniper -->
 
 	<CE_Gun_ChargeSniperRifle.label>Снайперская винтовка R-11</CE_Gun_ChargeSniperRifle.label>
@@ -180,7 +161,6 @@
 	<CE_Gun_ChargeSniperRifle.tools.1.label>ствол</CE_Gun_ChargeSniperRifle.tools.1.label>
 	<CE_Gun_ChargeSniperRifle.tools.2.label>дуло</CE_Gun_ChargeSniperRifle.tools.2.label>
 
-
 	<!-- Flamethrower -->
 
 	<CE_Gun_Flamethrower.label>Огнемёт RM2</CE_Gun_Flamethrower.label>
@@ -188,6 +168,5 @@
 	<CE_Gun_Flamethrower.tools.0.label>приклад</CE_Gun_Flamethrower.tools.0.label>
 	<CE_Gun_Flamethrower.tools.1.label>ствол</CE_Gun_Flamethrower.tools.1.label>
 	<CE_Gun_Flamethrower.tools.2.label>дуло</CE_Gun_Flamethrower.tools.2.label>
-
 
 </LanguageData>

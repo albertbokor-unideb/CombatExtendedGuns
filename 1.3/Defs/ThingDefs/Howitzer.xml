@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!-- === Base === -->
@@ -51,7 +51,7 @@
 		</placeWorkers>
 		<size>(3,3)</size>
 		<fillPercent>0.85</fillPercent>
-		<stuffCategories Inherit="False"/>
+		<stuffCategories Inherit="False" />
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<researchPrerequisites>
 			<li>CE_TurretHeavyWeapons</li>

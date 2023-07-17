@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
 	<Operation Class="PatchOperationFindMod">
@@ -30,7 +30,6 @@
 						<label>Cobra snubnose</label>
 					</value>
 				</li>
-		
 
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_SMG"]/label</xpath>
@@ -38,7 +37,6 @@
 						<label>MPX</label>
 					</value>
 				</li>
-		
 
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_ServiceSAW"]/label</xpath>
@@ -46,7 +44,6 @@
 						<label>RPK-74</label>
 					</value>
 				</li>
-		
 
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_ServiceRifle"]/label</xpath>
@@ -54,7 +51,6 @@
 						<label>AKM</label>
 					</value>
 				</li>
-		
 
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_ServiceHMG"]/label</xpath>
@@ -62,7 +58,6 @@
 						<label>PKM</label>
 					</value>
 				</li>
-		
 
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_ServiceDMR"]/label</xpath>
@@ -84,7 +79,6 @@
 						<label>AKS-74u</label>
 					</value>
 				</li>
-		
 
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_SawnoffPumpShotgun"]/label</xpath>
@@ -92,7 +86,6 @@
 						<label>Sawnoff Mossberg500</label>
 					</value>
 				</li>
-		
 
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_SAW"]/label</xpath>
@@ -142,7 +135,7 @@
 						<label>Mounted M1924</label>
 					</value>
 				</li>
-		
+
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_Magnum"]/label</xpath>
 					<value>
