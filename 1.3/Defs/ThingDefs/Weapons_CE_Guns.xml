@@ -6,7 +6,7 @@
 			<li>Gun</li>
 		</weaponTags>
 		<comps>
-			<li Class="CompProperties_Biocodable"/>
+			<li Class="CompProperties_Biocodable" />
 		</comps>
 	</ThingDef>
 
