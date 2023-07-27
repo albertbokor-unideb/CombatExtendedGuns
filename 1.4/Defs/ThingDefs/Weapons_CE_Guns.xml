@@ -392,12 +392,13 @@
 				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
-				<label>muzzle</label>
+				<label>bayonet</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
 				<power>12</power>
 				<cooldownTime>1.55</cooldownTime>
+				<chanceFactor>1.5</chanceFactor>
 				<armorPenetrationSharp>1.11</armorPenetrationSharp>
 				<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
