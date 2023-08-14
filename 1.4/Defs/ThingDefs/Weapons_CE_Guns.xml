@@ -1912,7 +1912,7 @@
 			<li>RangedLight</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>17000</WorkToMake>
+			<WorkToMake>16500</WorkToMake>
 			<Mass>1.1</Mass>
 			<Bulk>2.25</Bulk>
 			<ShotSpread>0.15</ShotSpread>
@@ -1924,7 +1924,8 @@
 			<Steel>20</Steel>
 			<Plasteel>20</Plasteel>
 			<Chemfuel>5</Chemfuel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -2016,7 +2017,7 @@
 			<li>ShortShots</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>39500</WorkToMake>
+			<WorkToMake>38000</WorkToMake>
 			<Mass>4.0</Mass>
 			<Bulk>8.50</Bulk>
 			<ShotSpread>0.14</ShotSpread>
@@ -2028,7 +2029,8 @@
 			<Steel>50</Steel>
 			<Plasteel>25</Plasteel>
 			<Chemfuel>10</Chemfuel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -2127,7 +2129,7 @@
 			<li>RangedLight</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>57500</WorkToMake>
+			<WorkToMake>56000</WorkToMake>
 			<SightsEfficiency>1.1</SightsEfficiency>
 			<ShotSpread>0.12</ShotSpread>
 			<SwayFactor>0.75</SwayFactor>
@@ -2138,8 +2140,9 @@
 		<costList>
 			<Steel>30</Steel>
 			<Plasteel>20</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
 			<Chemfuel>10</Chemfuel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -2245,7 +2248,7 @@
 			<li>RangedHeavy</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>50500</WorkToMake>
+			<WorkToMake>49000</WorkToMake>
 			<SightsEfficiency>2.6</SightsEfficiency>
 			<ShotSpread>0.03</ShotSpread>
 			<SwayFactor>1.9</SwayFactor>
@@ -2257,8 +2260,9 @@
 		<costList>
 			<Steel>60</Steel>
 			<Plasteel>30</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
 			<Chemfuel>15</Chemfuel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -2359,7 +2363,7 @@
 			<li>RangedHeavy</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>57500</WorkToMake>
+			<WorkToMake>56000</WorkToMake>
 			<SightsEfficiency>1.1</SightsEfficiency>
 			<ShotSpread>0.05</ShotSpread>
 			<SwayFactor>1.26</SwayFactor>
@@ -2370,8 +2374,9 @@
 		<costList>
 			<Steel>70</Steel>
 			<Plasteel>35</Plasteel>
-			<ComponentIndustrial>11</ComponentIndustrial>
 			<Chemfuel>15</Chemfuel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
@@ -2480,7 +2485,7 @@
 			<li>RangedHeavy</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>64000</WorkToMake>
+			<WorkToMake>60000</WorkToMake>
 			<SightsEfficiency>3.2</SightsEfficiency>
 			<ShotSpread>0.03</ShotSpread>
 			<SwayFactor>1.76</SwayFactor>
@@ -2492,8 +2497,9 @@
 		<costList>
 			<Steel>80</Steel>
 			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>11</ComponentIndustrial>
 			<Chemfuel>20</Chemfuel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
