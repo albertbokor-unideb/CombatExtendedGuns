@@ -2475,6 +2475,7 @@
 		<defName>CE_Gun_ChargeAMR</defName>
 		<label>A-12 charge anti-materiel rifle</label>
 		<description>Charged-shot anti-materiel rifle equipped with advanced optics for long-range shooting.</description>
+		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/ChargeAMR</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
