@@ -235,6 +235,20 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_AdvancedAutopistol"]/label</xpath>
+					<value>
+						<label>G18</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_ThogsAntiMaterialRifle"]/label</xpath>
+					<value>
+						<label>M82</label>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_BattleDMR"]/label</xpath>
 					<value>
 						<label>G3SG</label>
