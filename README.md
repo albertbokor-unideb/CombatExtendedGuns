@@ -38,3 +38,6 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - Flintlock musket
 - Flamethrower
 - 105mm Howitzer
+
+### License
+This mod falls under the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and may only be shared or modified under the specified terms.
