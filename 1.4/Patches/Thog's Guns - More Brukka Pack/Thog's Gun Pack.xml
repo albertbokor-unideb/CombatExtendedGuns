@@ -3,7 +3,6 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Thog's Guns - More Brukka Pack</li>
 			<li>Thog's Guns - More Brukka Pack - REPRIMED</li>			
 		</mods>
 		<match Class="PatchOperationSequence">
@@ -103,41 +102,6 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="Turret_MountedSAW"]/label</xpath>
-					<value>
-						<label>Mounted M249</label>
-					</value>
-				</li>
-
-				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="Turret_MountedMMG"]/label</xpath>
-					<value>
-						<label>Mounted PKM</label>
-					</value>
-				</li>
-
-				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="Turret_MountedMinigun"]/label</xpath>
-					<value>
-						<label>M134 Minigun</label>
-					</value>
-				</li>
-
-				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="Turret_MountedLMG"]/label</xpath>
-					<value>
-						<label>Mounted DP-27</label>
-					</value>
-				</li>
-
-				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="Turret_MountedHMG"]/label</xpath>
-					<value>
-						<label>Mounted M1924</label>
-					</value>
-				</li>
-
-				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_Magnum"]/label</xpath>
 					<value>
 						<label>Anaconda</label>
@@ -217,7 +181,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Gun_CrudeLMG"]/label</xpath>
 					<value>
-						<label>Type99 LMG</label>
+						<label>Type 99 LMG</label>
 					</value>
 				</li>
 
@@ -313,7 +277,7 @@
 				</li>
 
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="Gun_AdvancedAssaultRifle"]/label</xpath>
+					<xpath>/Defs/ThingDef[defName="ThogsGun_AdvancedAssaultRifle"]/label</xpath>
 					<value>
 						<label>FA-03</label>
 					</value>
