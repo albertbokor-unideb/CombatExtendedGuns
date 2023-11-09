@@ -33,7 +33,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Gun_ThogsAntiMaterialRifle"]/label</xpath>
 				<value>
-					<label>G18</label>
+					<label>M82</label>
 				</value>
 			</li>
 
