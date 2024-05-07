@@ -2025,7 +2025,7 @@
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>2.85</recoilAmount>
+				<recoilAmount>2.68</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_12GaugeCharged</defaultProjectile>
