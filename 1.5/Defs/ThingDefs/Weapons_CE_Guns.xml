@@ -915,7 +915,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawOffset>0.0,0.0</DrawOffset>
+				<DrawOffset>0.1,0</DrawOffset>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -1035,7 +1035,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/AKM</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.1,1.1)</drawSize>
+			<drawSize>(1.0,1.0)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
