@@ -809,7 +809,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawOffset>0.12,-0.10</DrawOffset>
+				<DrawOffset>0.12,0.0</DrawOffset>
 			</li>
 		</modExtensions>
 	</ThingDef>
