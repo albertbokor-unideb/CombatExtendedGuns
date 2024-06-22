@@ -415,7 +415,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SWGovernor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(0.92,1.92)</drawSize>
+			<drawSize>(0.92,0.92)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Revolver</soundInteract>
 		<weaponClasses>
