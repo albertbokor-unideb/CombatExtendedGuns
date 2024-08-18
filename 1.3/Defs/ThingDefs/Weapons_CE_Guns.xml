@@ -2040,7 +2040,7 @@
 			<li>ShortShots</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>33500</WorkToMake>
+			<WorkToMake>38000</WorkToMake>
 			<Mass>4.0</Mass>
 			<Bulk>8.50</Bulk>
 			<ShotSpread>0.14</ShotSpread>
