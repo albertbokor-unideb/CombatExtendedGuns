@@ -2220,7 +2220,7 @@
 			<li>ShortShots</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>38000</WorkToMake>
+			<WorkToMake>33500</WorkToMake>
 			<Mass>4.0</Mass>
 			<Bulk>8.50</Bulk>
 			<ShotSpread>0.14</ShotSpread>
@@ -2232,7 +2232,7 @@
 			<Steel>50</Steel>
 			<Plasteel>25</Plasteel>
 			<Chemfuel>10</Chemfuel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<ComponentIndustrial>1</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<verbs>
@@ -2251,7 +2251,8 @@
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>12</magazineSize>
-				<reloadTime>4.5</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<reloadTime>0.85</reloadTime>
 				<ammoSet>AmmoSet_12GaugeCharged</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
