@@ -683,8 +683,8 @@
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.25,1.33</DrawSize>
-				<DrawOffset>0.12,-0.10</DrawOffset>
+				<DrawSize>1.25,1.25</DrawSize>
+				<DrawOffset>0.12,0</DrawOffset>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -2033,13 +2033,14 @@
 		<graphicData>
 			<texPath>Things/Weapons/ChargeShotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.15,1.15)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<weaponClasses>
 			<li>ShortShots</li>
 		</weaponClasses>
 		<statBases>
-			<WorkToMake>39500</WorkToMake>
+			<WorkToMake>38000</WorkToMake>
 			<Mass>4.0</Mass>
 			<Bulk>8.50</Bulk>
 			<ShotSpread>0.14</ShotSpread>
@@ -2055,7 +2056,7 @@
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>2.85</recoilAmount>
+				<recoilAmount>2.68</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_12GaugeCharged</defaultProjectile>
@@ -2069,7 +2070,8 @@
 		<comps>
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>12</magazineSize>
-				<reloadTime>4.5</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<reloadTime>0.85</reloadTime>
 				<ammoSet>AmmoSet_12GaugeCharged</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -2126,8 +2128,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.15,1.28</DrawSize>
-				<DrawOffset>0.05,-0.05</DrawOffset>
+				<DrawOffset>0.06,0</DrawOffset>
 			</li>
 		</modExtensions>
 	</ThingDef>
